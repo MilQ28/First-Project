@@ -35,11 +35,11 @@ body {
     margin-top: 0;
     display: flex;
 
-    .paragraf {
+    .article {
         margin-right: 50px;
     }
 
-    .foto {
+    .aside {
         text-align: right;
         background-color: gray;
         padding: 50px;
