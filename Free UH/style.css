@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: red;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    span {
+        font-size: xx-large;
+        margin-left: 15px;
+    }
+
+    .nav {
+        margin-right: 110px;
+
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            margin: 5px;
+        }
+    }
+}
+
+.main {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+    margin-right: 00px;
+    margin-top: 0;
+    display: flex;
+
+    .paragraf {
+        margin-right: 50px;
+    }
+
+    .foto {
+        text-align: right;
+        background-color: gray;
+        padding: 50px;
+    }
+
+    p {
+        margin-top: -15px;
+    }
+
+    .kontak {
+        margin-right: 60px;
+        margin-top: 10px;
+    }
+}
