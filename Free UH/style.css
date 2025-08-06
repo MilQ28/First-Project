@@ -1,12 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    position: absolute;
 }
 
 .header {
     background-color: red;
     display: flex;
-    width: 100%;
+    width: 98.39%;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -52,5 +53,18 @@ body {
     .kontak {
         margin-right: 60px;
         margin-top: 10px;
+    }
+}
+
+.foot {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: -16px;
+
+    p {
+        color: aliceblue;
+        padding-top: 40px;
     }
 }
